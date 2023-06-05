@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+header {
+  color: rgb(152, 150, 150);
+  font-family: monospace;
+  font-size: 2rem;
+
+  padding-inline: 5rem;
+  padding-block: 2rem;
+}
+#red {
+  accent-color: red;
+}
+#green {
+  accent-color: green;
+}
+#blue {
+  accent-color: blue;
+}
+main {
+  background-color: rgb(74, 74, 138);
+  height: 800px;
+  width: 100%;
+}
