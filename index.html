@@ -9,13 +9,16 @@
     <title>Color Mixer</title>
 </head>
 <header>
-    <label for="red">red</label>
-    <input id="red" type="range" step="1" min="0" max="255" value="50">
-    <label for="green">green</label>
-    <input id="green" type="range" step="1" min="0" max="255" value="50">
-    <label for="blue">blue</label>
-    <input id="blue" type="range" step="1" min="0" max="255" value="50">
-
+    <div>
+        <label for="red">red</label>
+        <input id="red" type="range" step="1" min="0" max="255" value="30">
+        <output class="red-output" for="red"></output>
+        <label for="green">green</label>
+        <input id="green" type="range" step="1" min="0" max="255" value="144">
+        <label for="blue">blue</label>
+        <input id="blue" type="range" step="1" min="0" max="255" value="255">
+    </div>
+    <p class="color-value">rgb(89, 144, 255)</p>
 </header>
 <main>
 

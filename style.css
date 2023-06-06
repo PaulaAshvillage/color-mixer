@@ -16,13 +16,18 @@ select {
 }
 
 header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   color: rgb(152, 150, 150);
   font-family: monospace;
   font-size: 2rem;
 
   padding-inline: 5rem;
   padding-block: 2rem;
+  background-color: rgb(74, 74, 138, 0.3);
 }
+
 #red {
   accent-color: red;
 }
@@ -32,6 +37,7 @@ header {
 #blue {
   accent-color: blue;
 }
+
 main {
   background-color: rgb(74, 74, 138);
   height: 800px;
